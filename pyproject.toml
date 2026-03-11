@@ -3,7 +3,7 @@ line-length = 120
 
 [tool.ruff.lint]
 select = ["E", "F", "I", "UP"]
-ignore = ["D203"]
+ignore = ["D203", "UP045"]
 
 [tool.ruff.lint.isort]
 known-first-party = ["fastapi_app"]
